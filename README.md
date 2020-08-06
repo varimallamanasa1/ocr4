@@ -17,6 +17,12 @@ Deployed at: https://image-to-text-sahil.herokuapp.com/
   5.Opencv <br />
   6.Flask - 1.1.1 <br />
 
+• __Steps__: <br />
+  1. Get input image from html and using OpenCV decode image.<br />
+  2. Clean image use dilation and erosion technique. <br />
+  3. Pass image to pytesseract. <br />
+  4. Return detected text to html page
+  
 ## Screenshots of the original website: <br /><br />
   ### 1st: HomePage of Website <br /><br />
   ![Screenshot (107)](https://user-images.githubusercontent.com/36062668/89508462-94165780-d7eb-11ea-8178-b1254513324a.png)
