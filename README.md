@@ -10,12 +10,12 @@ Deployed at: https://image-to-text-sahil.herokuapp.com/
   Detect English, Hindi and Marathi text from image. 
 
 • __Dependencies__: <br />
-  1.Python - 3.6 <br />
-  2.Gunicorn==19.9.0 <br />
-  3.Pytesseract <br />
-  4.Numpy <br />
-  5.Opencv <br />
-  6.Flask - 1.1.1 <br />
+    1.Python - 3.6 <br />
+    2.Gunicorn==19.9.0 <br />
+    3.Pytesseract <br />
+    4.Numpy <br />
+    5.Opencv <br />
+    6.Flask - 1.1.1 <br />
 
 • __Steps__: <br />
   1. Get input image from html and using OpenCV decode image.<br />
