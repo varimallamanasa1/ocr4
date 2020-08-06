@@ -33,10 +33,9 @@ Deployed at: https://image-to-text-sahil.herokuapp.com/
   <br />
   ![Screenshot (109)](https://user-images.githubusercontent.com/36062668/89509666-37b43780-d7ed-11ea-8289-fdedd507b8eb.png) 
   <br />
-   ![Screenshot (110)](https://user-images.githubusercontent.com/36062668/89509685-3edb4580-d7ed-11ea-80b2-8eea087c3d50.png) 
+   ![Screenshot (48)](https://user-images.githubusercontent.com/36062668/89517403-47d11480-d7f7-11ea-8635-282e8274475b.png)
 <br />
-  ![Screenshot (48)](https://user-images.githubusercontent.com/36062668/89517403-47d11480-d7f7-11ea-8635-282e8274475b.png)
-
+  
 
   ### 3rd: After entering image containing Hindi text
   ![Annotation 31](https://user-images.githubusercontent.com/36062668/89511824-04bf7300-d7f0-11ea-880a-326e8417b189.png)
