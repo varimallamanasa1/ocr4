@@ -11,19 +11,7 @@
   --grey: #ecedf3;
 }
 
-/* #Primary
-================================================== */
 
-body{
-  width: 100%;
-  background: var(--dark-blue);
-  overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
-  font-size: 17px;
-  line-height: 30px;
-  -webkit-transition: all 300ms linear;
-  transition: all 300ms linear; 
-}
 p{
     font-family: 'Poppins', sans-serif;
   font-size: 17px;
@@ -58,70 +46,6 @@ mark{
 }
 .z-bigger {
     z-index: 100 !important;
-}
-.checkbox:checked ~ .background-color{
-  background-color: var(--white);
-}
-
-
-[type="checkbox"]:checked,
-[type="checkbox"]:not(:checked),
-[type="radio"]:checked,
-[type="radio"]:not(:checked){
-  position: absolute;
-  left: -9999px;
-  width: 0;
-  height: 0;
-  visibility: hidden;
-}
-.checkbox:checked + label,
-.checkbox:not(:checked) + label{
-  position: relative;
-  width: 70px;
-  display: inline-block;
-  padding: 0;
-  margin: 0 auto;
-  text-align: center;
-  margin: 17px 0;
-  margin-top: 100px;
-  height: 6px;
-  border-radius: 4px;
-  background-image: linear-gradient(298deg, var(--red), var(--yellow));
-  z-index: 100 !important;
-}
-.checkbox:checked + label:before,
-.checkbox:not(:checked) + label:before {
-  position: absolute;
-  font-family: 'unicons';
-  cursor: pointer;
-  top: -17px;
-  z-index: 2;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  -webkit-transition: all 300ms linear;
-  transition: all 300ms linear; 
-}
-.checkbox:not(:checked) + label:before {
-  content: '\eac1';
-  left: 0;
-  color: var(--grey);
-  background-color: var(--dark-light);
-  box-shadow: 0 4px 4px rgba(0,0,0,0.15), 0 0 0 1px rgba(26,53,71,0.07);
-}
-.checkbox:checked + label:before {
-  content: '\eb8f';
-  left: 30px;
-  color: var(--yellow);
-  background-color: var(--dark-blue);
-  box-shadow: 0 4px 4px rgba(26,53,71,0.25), 0 0 0 1px rgba(26,53,71,0.07);
-}
-
-.checkbox:checked ~ .section .container .row .col-12 p{
-  color: var(--dark-blue);
 }
 
 
@@ -264,7 +188,6 @@ mark{
     }
   }
 }
-/* ===================== BASIC STYLING ===================== */
 
 * {
   box-sizing: border-box;
@@ -379,20 +302,4 @@ button {
       box-sizing: border-box;
       border: 4px solid #ffffff;
     }
-	  textarea {
-  height:auto;
-  font-weight:100;
-  font-size:20px;
-  width:100%;
-  background:#fff;
-  border-radius:3px;
-  line-height:2em;
-  border:none;
-  box-shadow:0px 0px 5px 1px rgba(0,0,0,0.1);
-  padding:30px;
-  -webkit-transition: height 2s ease;
--moz-transition: height 2s ease;
--ms-transition: height 2s ease;
--o-transition: height 2s ease;
-transition: height 2s ease;
-}
+
