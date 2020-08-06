@@ -19,6 +19,7 @@ def start_page():
 
 def upload_file():
     file = request.files['image']
+    option = request.form['budget']
     Save file
     filename = 'static/' + file.filename
     file.save(filename)
@@ -27,12 +28,12 @@ def upload_file():
     result = read_img(image)
     
     if(len(result) == 0): 
-        faceDetected = False
+        textDetected = False
         print ("Empty String") 
         result = "String Have nothing"
         to_send = ''
     else : 
-        faceDetected = True
+        textDetected = True
         print ("String Have something")
         
         d = pytesseract.image_to_data(image, output_type=Output.DICT)
@@ -45,7 +46,7 @@ def upload_file():
         image_content = cv2.imencode('.jpg', image)[1].tostring()
         encoded_image = base64.encodestring(image_content)
         to_send = 'data:image/jpg;base64, ' + str(encoded_image, 'utf-8')
-    return render_template('index.html', faceDetected=faceDetected, prediction_text=result,image_to_show=to_send, init=True)
+    return render_template('index.html', textDetected=textDetected, prediction_text=result,image_to_show=to_send, init=True)
 
 #dilation
 def dilate(image):
