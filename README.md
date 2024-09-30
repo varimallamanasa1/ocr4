@@ -1,4 +1,4 @@
-# Text-detection-using-heroku-english-hindi-marathi
+# Text-detection-ocr
 
 
 ### This repository consists of files required to deploy a Machine Learning Web App created with Flask on Heroku platform.
@@ -7,7 +7,7 @@
 Deployed at: https://image-to-text-sahil.herokuapp.com/
 
 • __Problem Statement__:
-  Detect English, Hindi and Marathi text from image. 
+  Detect English, Hindi  text from image. 
 
 • __Dependencies__: <br />
     1.Python - 3.6 <br />
